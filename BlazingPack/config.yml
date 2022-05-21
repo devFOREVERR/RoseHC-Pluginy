@@ -1,0 +1,34 @@
+# BlazingPack konfiguracja
+# uzywaj kodowania znaków UTF-8 (charset encoding)
+
+
+# gracz nie ma BlazingPack'a
+# zakomentuj całe linie (poprzez dodanie znaku # na początku linijki),
+# aby wpuszczać również graczy bez BlazingPack. Możesz użyć API do
+# sprawdzania, czy gracz jest na BP (umożliwia to zrobienie np. wymagania
+# pewnych trybów na serwerze do BP)
+authError:
+- "§6Blad autoryzacji!"
+- "§6Pobierz paczke ze strony: http://blazingpack.pl"
+
+
+# wiadomość, gdy gracz ma nieaktualną wersję BlazingPack'a
+outdatedBP:
+- "§6Twoja paczka jest nieaktualna"
+
+
+# wprowadz tutaj cyferkowy adres (lub adresy) IP bungeecorda, na które
+# mogą połączyć się gracze (jesli wspierasz IPv6 i da się wejść, to również podaj)
+allowedIPs:
+- "138.201.132.230"
+- "2001:db8::1428:57ab"
+
+                               
+# wiadomosc do kickniecia przy wykryciu speedhack
+# ustaw "speedhack: null" aby wylaczyc zabezpieczenie od speedhacka
+speedhack:
+- "§6Zbyt szybko skaczesz miedzy planeta Mars a Wenus :/"
+
+# czas przyspieszenia w mikrosekundach
+speedHackMinus: -9000000
+speedHackPlus: 5000000
